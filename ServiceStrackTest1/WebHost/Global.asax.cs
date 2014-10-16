@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using WebHost.App_Start;
 
 namespace WebHost
 {
@@ -13,7 +14,8 @@ namespace WebHost
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
-           //new HelloAppHost().Init();
+            //w AppHost()).
+            //pHost.Start();
         }
 
         void Application_End(object sender, EventArgs e)

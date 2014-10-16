@@ -27,6 +27,7 @@ namespace ServiceStrackTest1
     {
         public object Any(Hello request)
         {
+            //throw new Exception("1111");
             return new HelloResponse { Result = "Hello world, " + request.Name
                                         //, ResponseStatus=new ResponseStatus("111","error")  
                                     };
