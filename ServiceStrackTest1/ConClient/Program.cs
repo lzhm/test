@@ -29,7 +29,7 @@ namespace ConClient
         static void Async(string url)
         {
             using (var client = new JsonServiceClient(url))
-            {
+            {                
                 var response = client.GetAsync <HelloResponse>(new Hello { Name = "World!" });
                 response.Success(r => Console.Write("respnose:{0}", r.Result));
                 
