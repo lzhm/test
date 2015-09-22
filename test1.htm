@@ -1,0 +1,26 @@
+<head>
+
+</head>
+<script type="text/javascript" language="javascript">
+function AA(s) {
+    this.Msg = "Msg sss";
+	this.Alert=function(msg)
+	{
+		alert(this.Msg);
+	}
+	
+	this.Alert2=function()
+	{
+		this.Alert();
+	}
+    
+}
+
+	var a=new AA();
+	//a.Alert("dddd");
+	a.Alert2();
+</script>
+
+<body>
+	
+</body>
